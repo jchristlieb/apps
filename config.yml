@@ -1,0 +1,13 @@
+css:
+  sourceDir: 'scss/'
+  mainFile: 'main.scss'
+  watchDir: 'scss/*.scss'
+  destDir: 'web/assets/css'
+
+browserSync:
+  watchDir:
+  - '*.php'
+  - '*.html'
+  - 'web/assets/scripts/*.js'
+  proxy: 'apps.dev'
+  port: 3000
