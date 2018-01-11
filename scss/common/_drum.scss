@@ -1,7 +1,7 @@
 
 
 .intro__wrapper {
-  display: block;
+  display: inline-block;
   color: white;
   background: rgba(0,0,0,0.4);
   text-shadow: 0 0 .5rem black;
@@ -9,7 +9,6 @@
   border-radius: 1rem;
   padding: 1rem;
   margin: 1rem auto;
-  width: fit-content;
   height: 7rem;
 }
 
